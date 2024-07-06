@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* share css */
+.nav_items {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* header */
+
+
+header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 0 0 0 40px;
+}
+
+/* nav style  */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+nav h2 {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav span {
+  color: #fd6e0a;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 50px;
+}
+
+nav ul li button {
+  width: 150px;
+  height: 64px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 1s all ease-in-out;
+}
+
+nav ul li button:hover {
+  background-color: #b34c03;
+}
+
+/* banner css */
+
+.banner {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin: 0px 35px 0px 230px;
+}
+
+.banner img {
+}
+.banner_content {
+}
+
+.banner_content h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.banner_content h4 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+}
+
+.banner_content p {
+  max-width: 585px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.banner_btn {
+  width: 170px;
+  height: 64px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 1s all ease-in-out;
+}
+.banner_btn:hover{
+    background-color: #b34c03;
+}
+
+.banner_btn_2 {
+  width: 150px;
+  height: 64px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  background-color: white;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: 1s all ease-in-out;
+}
+
+.banner_btn_2:hover{
+    background-color: #b34c03;
+    color: white;
+}
