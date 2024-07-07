@@ -225,3 +225,59 @@ main{
   color: #757575;
   margin-top: 15px;
 }
+
+
+/* summary of My Resume */
+.resume_title{
+  margin:80px 0px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.resume_container{
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.resume_column_title{
+
+font-size: 30px;
+
+font-weight: 700;
+
+color: #474747;
+
+margin-bottom: 25px;
+}
+.exprience_title{
+
+font-size: 25px;
+
+font-weight: 700;
+
+color: #474747;
+
+margin-bottom: 15px;
+}
+.exprience_sub_title{
+
+font-size: 20px;
+
+font-weight: 600;
+
+color: #474747;
+
+margin-bottom: 10px;
+}
+.exprience_description{
+  
+font-size: 16px;
+  
+font-weight: 400;
+  
+color: #757575;
+}
+
+hr{
+  margin: 25px 0px;
+}
