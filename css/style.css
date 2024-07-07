@@ -200,6 +200,7 @@ main {
 .skill_container {
   display: flex;
   /* border: 1px solid; */
+  gap: 30px;
 }
 
 .skill {
