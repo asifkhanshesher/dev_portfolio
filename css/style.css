@@ -14,8 +14,15 @@
   font-weight: 400;
 }
 
-/* header */
+.secondary-bg{
+  background-color: #FFF8F3;
+}
 
+.text_align_center{
+  text-align: center;
+}
+
+/* header */
 
 header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -63,6 +70,7 @@ nav ul li button {
   color: white;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
   transition: 1s all ease-in-out;
 }
 
@@ -74,11 +82,8 @@ nav ul li button:hover {
 
 .banner {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   margin: 0px 35px 0px 230px;
 }
 
@@ -117,6 +122,7 @@ nav ul li button:hover {
   color: white;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
   transition: 1s all ease-in-out;
 }
 .banner_btn:hover{
@@ -133,10 +139,89 @@ nav ul li button:hover {
   font-size: 20px;
   font-weight: 600;
   margin-left: 20px;
+  cursor: pointer;
   transition: 1s all ease-in-out;
 }
 
 .banner_btn_2:hover{
     background-color: #b34c03;
     color: white;
+}
+
+/* main style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about style */
+.about{
+  padding: 130px 160px;
+  margin: 150px 0px;
+  text-align: center;
+}
+
+.about_title{
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about_description{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.item-description{
+  font-weight: 700;
+  color: #474747;
+  margin-top: 8px;
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+
+
+/* What I do section start */
+.skills{
+
+}
+.skills-title{
+
+}
+.skills-sec-description{
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 0px 90px;
+}
+
+.skill_container{
+  display: flex;
+  /* border: 1px solid; */
+
+}
+
+.skill{
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 50px 30px;
+
+}
+
+.skill_title{
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.skill_description{
+  color: #757575;
+  margin-top: 15px;
 }
