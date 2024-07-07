@@ -14,21 +14,21 @@
   font-weight: 400;
 }
 
-.secondary-bg{
-  background-color: #FFF8F3;
+.secondary-bg {
+  background-color: #fff8f3;
 }
 
-.text_align_center{
+.text_align_center {
   text-align: center;
 }
 
 /* header */
 
 header {
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    margin: 0 0 0 40px;
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  margin: 0 0 0 40px;
 }
 
 /* nav style  */
@@ -87,10 +87,9 @@ nav ul li button:hover {
   margin: 0px 35px 0px 230px;
 }
 
-.banner img {
-}
-.banner_content {
-}
+.banner img {}
+
+.banner_content {}
 
 .banner_content h1 {
   font-size: 85px;
@@ -125,8 +124,9 @@ nav ul li button:hover {
   cursor: pointer;
   transition: 1s all ease-in-out;
 }
-.banner_btn:hover{
-    background-color: #b34c03;
+
+.banner_btn:hover {
+  background-color: #b34c03;
 }
 
 .banner_btn_2 {
@@ -143,141 +143,206 @@ nav ul li button:hover {
   transition: 1s all ease-in-out;
 }
 
-.banner_btn_2:hover{
-    background-color: #b34c03;
-    color: white;
+.banner_btn_2:hover {
+  background-color: #b34c03;
+  color: white;
 }
 
 /* main style */
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
 
 /* about style */
-.about{
+.about {
   padding: 130px 160px;
   margin: 150px 0px;
   text-align: center;
 }
 
-.about_title{
+.about_title {
   color: #181818;
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.about_description{
+.about_description {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
 }
 
-.item-description{
+.item-description {
   font-weight: 700;
   color: #474747;
   margin-top: 8px;
 }
 
-.about-items{
+.about-items {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
 }
 
-
-
 /* What I do section start */
-.skills{
+.skills {}
 
-}
-.skills-title{
+.skills-title {}
 
-}
-.skills-sec-description{
+.skills-sec-description {
   margin-top: 20px;
   margin-bottom: 80px;
   padding: 0px 90px;
 }
 
-.skill_container{
+.skill_container {
   display: flex;
   /* border: 1px solid; */
-
 }
 
-.skill{
+.skill {
   border: 1px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding: 50px 30px;
-
 }
 
-.skill_title{
+.skill_title {
   color: #181818;
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
 }
 
-.skill_description{
+.skill_description {
   color: #757575;
   margin-top: 15px;
 }
 
-
 /* summary of My Resume */
-.resume_title{
-  margin:80px 0px;
+.resume_title {
+  margin: 80px 0px;
   font-size: 35px;
   font-weight: bold;
 }
-.resume_container{
+
+.resume_container {
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
 }
 
-.resume_column_title{
+.resume_column_title {
+  font-size: 30px;
 
-font-size: 30px;
+  font-weight: 700;
 
-font-weight: 700;
+  color: #474747;
 
-color: #474747;
-
-margin-bottom: 25px;
-}
-.exprience_title{
-
-font-size: 25px;
-
-font-weight: 700;
-
-color: #474747;
-
-margin-bottom: 15px;
-}
-.exprience_sub_title{
-
-font-size: 20px;
-
-font-weight: 600;
-
-color: #474747;
-
-margin-bottom: 10px;
-}
-.exprience_description{
-  
-font-size: 16px;
-  
-font-weight: 400;
-  
-color: #757575;
+  margin-bottom: 25px;
 }
 
-hr{
+.exprience_title {
+  font-size: 25px;
+
+  font-weight: 700;
+
+  color: #474747;
+
+  margin-bottom: 15px;
+}
+
+.exprience_sub_title {
+  font-size: 20px;
+
+  font-weight: 600;
+
+  color: #474747;
+
+  margin-bottom: 10px;
+}
+
+.exprience_description {
+  font-size: 16px;
+
+  font-weight: 400;
+
+  color: #757575;
+}
+
+hr {
   margin: 25px 0px;
+}
+
+.resume_btn {
+  width: 170px;
+  height: 64px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 1s all ease-in-out;
+  margin-bottom: 50px;
+}
+
+.resume_btn:hover {
+  background-color: #b34c03;
+}
+
+/* footer part style */
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 110px;
+}
+.social_icon{
+  margin: 20px 0 0 0;
+  font-size: 40px;
+}
+.footer_column {
+  width: 50%;
+}
+footer  input[type="text"],footer  input[type="email"]{
+  width: 460px;
+  height: 50px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: transparent;
+  outline: none;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+
+footer  textarea{
+  width: 460px;
+  height: 200px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: transparent;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section_title{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.copy h1{
+  color: #fd6e0a;
+  background-color: #181818;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-align: center;
+  padding: 30px 0px;
 }
